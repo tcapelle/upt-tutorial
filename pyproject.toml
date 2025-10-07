@@ -14,4 +14,5 @@ dependencies = [
     "torch-scatter @ https://data.pyg.org/whl/torch-2.8.0+cu128/torch_scatter-2.1.2+pt28cu128-cp312-cp312-linux_x86_64.whl",
     "torch-cluster @ https://data.pyg.org/whl/torch-2.8.0+cu128/torch_cluster-1.6.3+pt28cu128-cp312-cp312-linux_x86_64.whl",
     "torchvision>=0.23.0",
+    "imageio>=2.37.0",
 ]
