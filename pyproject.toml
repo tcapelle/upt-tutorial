@@ -1,0 +1,17 @@
+[project]
+name = "upt-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.30.1",
+    "jupyter>=1.1.1",
+    "kappamodules>=0.1.112",
+    "matplotlib>=3.10.6",
+    "torch>=2.8.0",
+    "torch-geometric>=2.6.1",
+    "torch-scatter @ https://data.pyg.org/whl/torch-2.8.0+cu128/torch_scatter-2.1.2+pt28cu128-cp312-cp312-linux_x86_64.whl",
+    "torch-cluster @ https://data.pyg.org/whl/torch-2.8.0+cu128/torch_cluster-1.6.3+pt28cu128-cp312-cp312-linux_x86_64.whl",
+    "torchvision>=0.23.0",
+]
